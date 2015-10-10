@@ -32,7 +32,7 @@ You can find your API token at [api.slack.com/web](https://api.slack.com/web).
 The available options are:
 
 ```
-Usage: slackin [options] <slack-subdomain> <api-token>
+Usage: slackin [options] <slack-subdomain> <api-token> <locale>
 
 Options:
 
@@ -42,6 +42,13 @@ Options:
   -c, --channel <chan>  Single channel guest invite [$SLACK_CHANNEL]
   -i, --interval <int>  How frequently (ms) to poll Slack [$SLACK_INTERVAL or 1000]
   -s, --silent          Do not print out warns or errors
+
+Available locales :
+
+  - en
+  - de
+  - es
+  - fr
 ```
 
 #### Build from source
@@ -119,7 +126,7 @@ By default logging is enabled.
 
 - The SVG badge generation was taken from the
 excellent [shields](https://github.com/badges/shields) project.
-- The button CSS is based on 
+- The button CSS is based on
 [github-buttons](https://github.com/mdo/github-buttons).
 
 ## License
